@@ -27,6 +27,7 @@ import com.example.phim88.utils.CategoryQuery
 import com.example.phim88.widget.BackDropView
 import com.example.phim88.widget.SpaceItemDecoration
 import kotlinx.android.synthetic.main.fragment_home.*
+import kotlinx.android.synthetic.main.layout_menu.*
 import org.koin.android.viewmodel.ext.android.viewModel
 
 /**
@@ -67,10 +68,9 @@ class HomeFragment : ViewModelBaseFragment<HomeViewModel, FragmentHomeBinding>()
         })
     }
 
-    override fun registerListeners() {
-//        buttonFavorite.setOnClickListener(this)
-//        buttonAbout.setOnClickListener(this)
-
+    override fun registerListener() {
+        buttonFavorite.setOnClickListener(this)
+        buttonAbout.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
