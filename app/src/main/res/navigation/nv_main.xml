@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nv_main"
+    app:startDestination="@id/splashScreenFragment"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="com.example.phim88.view.SplashScreenFragment"
+        android:label="SplashScreenFragment"
+        tools:layout="@layout/fragment_splash_screen">
+
+        <action
+            android:id="@+id/actionSplashToHome"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:exitAnim="@anim/slide_out_right"
+            app:popEnterAnim="@anim/slide_out_right"
+            app:popExitAnim="@anim/slide_in_left"
+            app:popUpTo="@id/splashScreenFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.phim88.view.home.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home" >
+<!--        <action-->
+<!--            android:id="@+id/actHomeToDetail"-->
+<!--            app:destination="@id/detailMovieFragment"-->
+<!--            app:popUpTo="@id/detailMovieFragment"-->
+<!--            app:popUpToInclusive="true"-->
+<!--            app:popEnterAnim="@anim/slide_out_right"-->
+<!--            app:popExitAnim="@anim/slide_in_left"/>-->
+<!--        <action-->
+<!--            android:id="@+id/actHomeToMovieByCategory"-->
+<!--            app:destination="@id/movieByCategoryFragment"-->
+<!--            app:enterAnim="@anim/slide_in_left"-->
+<!--            app:exitAnim="@anim/slide_out_right"-->
+<!--            app:popEnterAnim="@anim/slide_out_right"-->
+<!--            app:popExitAnim="@anim/slide_in_left"/>-->
+<!--        <action-->
+<!--            android:id="@+id/actHomeToSearch"-->
+<!--            app:destination="@id/searchFragment"-->
+<!--            app:enterAnim="@anim/slide_in_left"-->
+<!--            app:exitAnim="@anim/slide_out_right"-->
+<!--            app:popEnterAnim="@anim/slide_out_right"-->
+<!--            app:popExitAnim="@anim/slide_in_left"/>-->
+<!--        <action-->
+<!--            android:id="@+id/actHomeToMovieByGenres"-->
+<!--            app:destination="@id/movieByGenresFragment"-->
+<!--            app:enterAnim="@anim/slide_in_left"-->
+<!--            app:exitAnim="@anim/slide_out_right"-->
+<!--            app:popEnterAnim="@anim/slide_out_right"-->
+<!--            app:popExitAnim="@anim/slide_in_left"/>-->
+<!--        <action-->
+<!--            android:id="@+id/actHomeToFavorite"-->
+<!--            app:destination="@id/favoriteFragment"-->
+<!--            app:enterAnim="@anim/slide_in_right"-->
+<!--            app:exitAnim="@anim/slide_out_left"-->
+<!--            app:popEnterAnim="@anim/slide_out_right"-->
+<!--            app:popExitAnim="@anim/slide_in_left"/>-->
+    </fragment>
+
+</navigation>

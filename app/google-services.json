@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "999929015207",
+    "firebase_url": "https://charismatic-fx-317318-default-rtdb.firebaseio.com",
+    "project_id": "charismatic-fx-317318",
+    "storage_bucket": "charismatic-fx-317318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999929015207:android:996831117d593d048d2482",
+        "android_client_info": {
+          "package_name": "com.example.phim88"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999929015207-s91376ja2cnkvlmondj0kjooua1u2ve4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phim88",
+            "certificate_hash": "a4d041fc66ed43efea6856e2c7a851d4e31e38f3"
+          }
+        },
+        {
+          "client_id": "999929015207-2h26a9f7jk8vs4u2cbpec29q5apjevip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwM2yj4jyylWhAFTTisiJi4C2C3btEiDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999929015207-2h26a9f7jk8vs4u2cbpec29q5apjevip.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "999929015207-a03pjgofn1qms1fo7626k9ke28hseoqn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.phim88"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
