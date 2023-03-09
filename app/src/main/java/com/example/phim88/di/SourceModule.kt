@@ -2,8 +2,7 @@ package com.example.phim88.di
 
 import com.example.phim88.base.ContextProviders
 import com.example.phim88.data.DatabaseManager
-import com.example.phim88.data.repository.HomeRepository
-import com.example.phim88.data.repository.MovieByCategoryRepository
+import com.example.phim88.data.repository.*
 import org.koin.core.qualifier.named
 import org.koin.dsl.module
 

@@ -2,6 +2,7 @@ package com.example.phim88.base
 
 import androidx.room.*
 
+@Dao
 interface BaseDao<in T> {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun save(entity: T)

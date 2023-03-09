@@ -3,27 +3,50 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/bg_border_curved.xml" value="0.2855" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/bg_bottom_gradient.xml" value="0.2025" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/bg_layout.xml" value="0.2015" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/bottom_right_liquid_forward.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/bottom_right_liquid_reverse.xml" value="0.1935" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_close_menu.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_dark_theme.xml" value="0.1935" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_details_age.xml" value="0.2855" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_details_rating.xml" value="0.2855" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_details_time.xml" value="0.2855" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_logo.xml" value="0.2025" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_menu.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_night_to_day.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_theme_day.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_theme_night.xml" value="0.1935" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/ic_up.xml" value="0.2015" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/status_bar_translucent_scrim.xml" value="0.2855" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/top_left_liquid_forward.xml" value="0.1925" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/drawable/top_left_liquid_reverse.xml" value="0.1935" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout-land/fragment_detail.xml" value="0.16490299823633156" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/activity_main.xml" value="0.18697916666666667" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/dialog_app_info.xml" value="0.19375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_actor.xml" value="0.19375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_actor_info.xml" value="0.19479166666666667" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_detail.xml" value="0.1" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_favorite.xml" value="0.36231884057971014" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_home.xml" value="0.184375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_movie_by_category.xml" value="0.3614583333333333" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_movie_by_genres.xml" value="0.3614583333333333" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_product.xml" value="0.36231884057971014" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_search.xml" value="0.3614583333333333" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_splash_screen.xml" value="0.2965811965811966" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/fragment_trailer.xml" value="0.3614583333333333" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/item_cast.xml" value="0.19375" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/item_genres.xml" value="0.19375" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/item_home_movie.xml" value="0.19479166666666667" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/item_movie.xml" value="0.19375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/item_recycler_category_layout.xml" value="0.3614583333333333" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/layout/layout_menu.xml" value="0.19375" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/menu/menu_main.xml" value="0.18541666666666667" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/xml/detail_movie.xml" value="0.184375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/xml/motion_info_actor.xml" value="0.19375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/xml/motion_more_movies.xml" value="0.19375" />
+        <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/xml/motion_movie_info.xml" value="0.19479166666666667" />
         <entry key="..\:/VCC/phim88_kotlin/app/src/main/res/xml/splash_screen_animation.xml" value="0.36231884057971014" />
       </map>
     </option>

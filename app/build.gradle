@@ -85,13 +85,13 @@ android {
         }
     }
 
-//    variantFilter {
-//        variant -> {
-//            if (variant.buildType.name != productType || variant.flavors[0].name != productFlavor) {
-//                variant.setIgnore(true)
-//            }
-//        }
-//    }
+    variantFilter {
+        variant -> {
+            if (variant.buildType.name != productType || variant.flavors[0].name != productFlavor) {
+                variant.setIgnore(true)
+            }
+        }
+    }
 
 
     buildTypes {
@@ -163,7 +163,7 @@ dependencies {
 
     //ROOM
     implementation "androidx.room:room-runtime:$versions.room_version"
-    kapt "androidx.room:room-compiler:$versions.room_version"
+    annotationProcessor "androidx.room:room-compiler:$versions.room_version"
     implementation "androidx.room:room-ktx:$versions.room_version"
 
     //Pagging
