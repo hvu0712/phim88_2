@@ -70,7 +70,7 @@
         android:label="DetailMovieFragment"
         tools:layout="@layout/fragment_detail">
         <argument android:name="movie"
-            app:argType="com.sun.moviedb.data.entity.Movie"/>
+            app:argType="com.example.phim88.data.entity.Movie"/>
         <action
             android:id="@+id/actDetailToActorInfo"
             app:destination="@id/actorFragment" />
@@ -94,7 +94,7 @@
         tools:layout="@layout/fragment_movie_by_genres">
         <argument
             android:name="genres"
-            app:argType="com.sun.moviedb.data.entity.Genres"/>
+            app:argType="com.example.phim88.data.entity.Genres"/>
         <action
             android:id="@+id/actMovieByGenresToDetail"
             app:destination="@id/detailMovieFragment" />
@@ -124,6 +124,6 @@
         tools:layout="@layout/fragment_actor_info">
         <argument
             android:name="caster"
-            app:argType="com.sun.moviedb.data.dto.CastDTO"/>
+            app:argType="com.example.phim88.data.dto.CastDTO"/>
     </fragment>
 </navigation>

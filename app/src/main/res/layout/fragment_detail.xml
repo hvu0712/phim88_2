@@ -31,7 +31,7 @@
         <!--            app:layout_constraintTop_toTopOf="@id/details_backdrop" />-->
         <com.google.android.exoplayer2.ui.PlayerView
             android:id="@+id/details_backdrop_scrim"
-            android:name="com.sun.moviedb.view.detail.YoutubeFragment"
+            android:name="com.example.view.detail.YoutubeFragment"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@+id/details_title"

@@ -39,7 +39,7 @@
 
         <Constraint
             android:id="@+id/text_movie_synopsis"
-            app:progress=".1">
+            android:progress="1">
             <Layout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
